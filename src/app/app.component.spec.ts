@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'apm-new'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('apm-new');
+    expect(app.pageTitle).toEqual('Xbox Games Management');
   });
 
   it('should render title', () => {
